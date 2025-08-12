@@ -77,7 +77,7 @@ button:active {
 body{  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 18px;
   font-weight: 600;
-  
+  margin-top: 20px;
   display: flex;flex-direction: row;align-items: center;
   flex-wrap: wrap;
 
