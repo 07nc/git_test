@@ -1,9 +1,11 @@
 
-const container = document.querySelector(".container");
+const container = document.querySelector("#container");
 const buttons = document.querySelectorAll("#generate");
 const num = document.querySelector("#num");
 const drawingColorInput = document.querySelector("#drawcolor");
 let drawingColor = "#000000";
+document.documentElement.style.setProperty('--hoverColor', drawingColor);
+
 
 document.addEventListener('mouseup', () => {
     isDrawing = false;
